@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gymkhana_app/screens/gymkhana%20bearers.dart';
 import 'package:gymkhana_app/screens/test.dart';
 
 
@@ -100,6 +101,9 @@ class Navigationwidget extends StatelessWidget {
               // ...
               // Then close the drawer
               Navigator.pop(context);
+              Navigator.push(context,
+              MaterialPageRoute(builder: (context) => GymkhanaBearers()),
+            );
             },
           ),
           ListTile(
