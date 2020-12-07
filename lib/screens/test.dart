@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gymkhana_app/assets/navigation.dart';
+import 'package:gymkhana_app/commonwidgets/navigation.dart';
+
 
 class Test extends StatelessWidget {
   @override
@@ -12,7 +13,7 @@ class Test extends StatelessWidget {
         centerTitle: true,
         elevation: 0.0,
       ),
-      // drawer: Navigationwidget(),
+      drawer: Navigationwidget(),
       
     );
   }

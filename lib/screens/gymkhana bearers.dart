@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:gymkhana_app/assets/navigation.dart';
+import 'package:gymkhana_app/commonwidgets/card.dart';
+import 'package:gymkhana_app/commonwidgets/navigation.dart';
+
 
 class GymkhanaBearers extends StatelessWidget {
+  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,7 +16,8 @@ class GymkhanaBearers extends StatelessWidget {
         backgroundColor: Colors.black,
         elevation: 0.0,
       ),
-      drawer: Navigationwidget()
+      drawer: Navigationwidget(),
+      body: Cardwidget(),
       
     );
   }
